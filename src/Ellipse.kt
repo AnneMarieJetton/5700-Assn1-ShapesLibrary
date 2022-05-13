@@ -1,3 +1,3 @@
-class Elipse {
+class Ellipse {
 
 }
