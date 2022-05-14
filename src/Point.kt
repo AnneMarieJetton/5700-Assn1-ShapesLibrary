@@ -2,16 +2,16 @@ class Point(x: Double, y: Double) {
     var x: Double = x
     var y: Double = y
 
-    fun clonePoint() {
-
+    fun clonePoint(): Point {
+        return Point(x, y)
     }
 
-    fun movePointX(){
-
+    fun movePointX(change: Int){
+        x += change
     }
 
-    fun movePointY() {
-
+    fun movePointY(change: Int) {
+        y += change
     }
 
 }
