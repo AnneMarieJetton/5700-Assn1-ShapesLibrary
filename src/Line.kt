@@ -1,7 +1,7 @@
 import kotlin.math.pow
 import kotlin.math.sqrt
 
-class Line(points: MutableList<Point>): Shape(points) {
+class Line(_points: MutableList<Point>): Shape(_points) {
 
     fun getSlope(): Double {
         return (points[1].y - points[0].y) / (points[1].x - points[0].x)

@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e803489-35aa-426d-9546-77a27076829b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ellipse.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ellipse.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Line.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Line.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Rectangle.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Rectangle.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Square.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Square.kt" afterDir="false" />
     </list>
