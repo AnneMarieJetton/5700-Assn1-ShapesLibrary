@@ -1,8 +1,8 @@
 import kotlin.math.abs
 
 open class Rectangle(points: MutableList<Point>): Shape(points) {
-    private val width = abs(points[1].x - points[0].x)
-    private val height = abs(points[1].y - points[0].y)
+    val width = abs(points[1].x - points[0].x)
+    val height = abs(points[1].y - points[0].y)
 
     fun getArea(): Double {
         return width * height
