@@ -3,6 +3,12 @@ import kotlin.math.sqrt
 
 class Line(_points: MutableList<Point>): Shape(_points) {
 
+    init {
+        if (!checkLength()) {
+            throw Exception(message = "Error: Length of the line cannot be zero.")
+        }
+    }
+
     fun getSlope(): Double {
         return (points[1].y - points[0].y) / (points[1].x - points[0].x)
     }

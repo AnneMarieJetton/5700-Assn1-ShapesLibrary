@@ -4,7 +4,13 @@ import kotlin.math.pow
 import kotlin.math.sqrt
 
 class Triangle(points: MutableList<Point>): Shape(points) {
-    var area: Double = 0.toDouble()
+    var area: Double = calculateArea()
+
+    init {
+        if (!checkArea()) {
+            throw Exception(message = "Error: Area must be non-zero.")
+        }
+    }
 
     private fun checkArea(): Boolean {
         if (area == 0.toDouble()) {
