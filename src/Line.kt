@@ -13,7 +13,7 @@ class Line(_points: MutableList<Point>): Shape(_points) {
 
     private fun checkLength(): Boolean {
         val length = getLength()
-        if (length.toInt() == 0) {
+        if (length == 0.toDouble()) {
             return false
         }
 

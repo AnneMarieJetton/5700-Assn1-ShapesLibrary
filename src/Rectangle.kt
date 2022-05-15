@@ -9,7 +9,7 @@ open class Rectangle(_points: MutableList<Point>): Shape(_points) {
     }
 
     private fun checkWidthHeight(): Boolean {
-        if (width.toInt() == 0 || height.toInt() == 0){
+        if (width == 0.toDouble() || height == 0.toDouble()){
             return false
         }
         return true
