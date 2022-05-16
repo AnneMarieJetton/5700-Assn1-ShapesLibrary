@@ -4,9 +4,7 @@ import kotlin.math.sqrt
 class Line(_points: MutableList<Point>): Shape(_points) {
 
     init {
-        if (!checkLength()) {
-            throw Exception(message = "Error: Length of the line cannot be zero.")
-        }
+        require(checkLength(), {"Error: Length of the line cannot be zero."})
     }
 
     fun getSlope(): Double {
