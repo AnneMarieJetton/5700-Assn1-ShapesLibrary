@@ -5,6 +5,7 @@ class Line(_points: MutableList<Point>): Shape(_points) {
 
     init {
         require(checkLength(), {"Error: Length of the line cannot be zero."})
+        require(checkListSize(), { "Error: must have 2 points" })
     }
 
     fun getSlope(): Double {
@@ -21,6 +22,13 @@ class Line(_points: MutableList<Point>): Shape(_points) {
             return false
         }
 
+        return true
+    }
+
+    fun checkListSize(): Boolean {
+        if(points.size != 2) {
+            return false
+        }
         return true
     }
 

@@ -7,6 +7,7 @@ class Triangle(points: MutableList<Point>): Shape(points) {
 
     init {
         require(checkArea(), { "Error: Area must be non-zero." })
+        require(checkListSize(), { "Error: must have 3 points" })
     }
 
     private fun checkArea(): Boolean {
@@ -24,6 +25,13 @@ class Triangle(points: MutableList<Point>): Shape(points) {
         val s = (side1+side2+side3)/2
 
         return sqrt(s*(s-side1)*(s-side2)*(s-side3))
+    }
+
+    fun checkListSize(): Boolean {
+        if(points.size != 3) {
+            return false
+        }
+        return true
     }
 
 }

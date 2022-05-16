@@ -45,7 +45,15 @@ internal class LineTest {
         org.junit.jupiter.api.assertThrows<RuntimeException> {
             makeLine(points2)
         }
+
+        var points3: MutableList<Point> = mutableListOf()
+        points3.add(Point(0.toDouble(), 0.toDouble()))
+
+        org.junit.jupiter.api.assertThrows<RuntimeException> {
+            makeLine(points3)
+        }
     }
+
 
     private fun makeLine(points: MutableList<Point>): Line {
         return Line(points)

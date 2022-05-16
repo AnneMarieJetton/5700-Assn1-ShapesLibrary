@@ -26,6 +26,13 @@ internal class CircleTest {
         assertThrows<RuntimeException> {
             makeCircle(points, radii2)
         }
+
+        var radii3: MutableList<Double> = mutableListOf()
+        radii3.add(1.toDouble())
+
+        assertThrows<RuntimeException> {
+            makeCircle(points, radii3)
+        }
     }
 
     private fun makeCircle(points: MutableList<Point>, radii: MutableList<Double>): Circle {

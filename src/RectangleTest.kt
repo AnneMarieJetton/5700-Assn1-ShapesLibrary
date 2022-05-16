@@ -36,4 +36,5 @@ internal class RectangleTest {
 
         assertEquals(2.toDouble(), rectangle.getArea())
     }
+
 }

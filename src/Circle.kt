@@ -4,6 +4,7 @@ class Circle(_points: MutableList<Point>, _radii: MutableList<Double>): Ellipse(
 
     init {
         require(checkRadiiEquality(), { "Error: Area must be non-zero, and radii must be equal." })
+        require(checkListSize(), { "Error: must have one point and 2 radii" })
     }
 
     private fun checkRadiiEquality(): Boolean {

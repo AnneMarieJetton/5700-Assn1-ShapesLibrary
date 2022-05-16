@@ -3,6 +3,7 @@ open class Ellipse(_points: MutableList<Point>, _radii: MutableList<Double>): Sh
 
     init {
         require(checkArea(), {"Error: Area must be non-zero."})
+        require(checkListSize(), { "Error: must have one point and 2 radii" })
     }
 
     fun getArea(): Double {
@@ -11,6 +12,13 @@ open class Ellipse(_points: MutableList<Point>, _radii: MutableList<Double>): Sh
 
     private fun checkArea(): Boolean {
         if (getArea() == 0.toDouble()){
+            return false
+        }
+        return true
+    }
+
+    fun checkListSize(): Boolean {
+        if(points.size != 1 && radii.size != 2) {
             return false
         }
         return true

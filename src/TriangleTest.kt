@@ -38,6 +38,14 @@ internal class TriangleTest {
             makeTriangle(points2)
         }
 
+        var points3: MutableList<Point> = mutableListOf()
+        points3.add(Point(0.toDouble(), 0.toDouble()))
+        points3.add(Point(0.toDouble(), 0.toDouble()))
+
+        org.junit.jupiter.api.assertThrows<RuntimeException> {
+            makeTriangle(points3)
+        }
+
     }
 
     private fun makeTriangle(points: MutableList<Point>): Triangle {

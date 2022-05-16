@@ -2,6 +2,7 @@ class Square(_points: MutableList<Point>): Rectangle(_points) {
 
     init {
         require(checkWidthHeightEquality(), {"Error: Width and height must be non-zero, and must be equal."})
+        require(checkListSize(), { "Error: must have 2 points" })
     }
 
     private fun checkWidthHeightEquality(): Boolean {
