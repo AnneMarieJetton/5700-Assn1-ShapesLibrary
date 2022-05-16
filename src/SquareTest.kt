@@ -15,8 +15,8 @@ internal class SquareTest {
         }
 
         var points2: MutableList<Point> = mutableListOf()
-        points.add(Point(0.toDouble(), 0.toDouble()))
-        points.add(Point(1.toDouble(), 2.toDouble()))
+        points2.add(Point(0.toDouble(), 0.toDouble()))
+        points2.add(Point(1.toDouble(), 2.toDouble()))
 
         org.junit.jupiter.api.assertThrows<RuntimeException> {
             makeSquare(points2)

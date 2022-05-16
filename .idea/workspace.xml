@@ -3,21 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="6e803489-35aa-426d-9546-77a27076829b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Circle.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Circle.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CircleTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/CircleTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ellipse.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ellipse.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EllipseTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/EllipseTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Line.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Line.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/5700-Assn1-ShapesLibrary/LineTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/5700-Assn1-ShapesLibrary/LineTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LineTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/LineTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PointTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/PointTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Rectangle.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Rectangle.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RectangleTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/RectangleTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ShapeTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ShapeTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Square.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Square.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SquareTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/SquareTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Triangle.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Triangle.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TriangleTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/TriangleTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UnitTests.kt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,11 +53,12 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.TriangleTest">
-    <configuration name="PointTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LineTest.checkLength" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="5700-Assn1-ShapesLibrary" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PointTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="LineTest" />
+      <option name="METHOD_NAME" value="checkLength" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -113,9 +103,9 @@
       <list>
         <item itemvalue="JUnit.TriangleTest" />
         <item itemvalue="JUnit.SquareTest" />
+        <item itemvalue="JUnit.LineTest.checkLength" />
         <item itemvalue="JUnit.ShapeTest" />
         <item itemvalue="JUnit.RectangleTest" />
-        <item itemvalue="JUnit.PointTest" />
       </list>
     </recent_temporary>
   </component>
@@ -149,22 +139,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1180" y="343" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1652644003569" />
-    <state width="1877" height="408" key="GridCell.Tab.0.bottom" timestamp="1652678322404">
+    <state width="1877" height="116" key="GridCell.Tab.0.bottom" timestamp="1652679333014">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="408" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1652678322404" />
-    <state width="1877" height="408" key="GridCell.Tab.0.center" timestamp="1652678322404">
+    <state width="1877" height="116" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1652679333014" />
+    <state width="1877" height="116" key="GridCell.Tab.0.center" timestamp="1652679333014">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="408" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1652678322404" />
-    <state width="1877" height="408" key="GridCell.Tab.0.left" timestamp="1652678322404">
+    <state width="1877" height="116" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1652679333014" />
+    <state width="1877" height="116" key="GridCell.Tab.0.left" timestamp="1652679333014">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="408" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1652678322404" />
-    <state width="1877" height="408" key="GridCell.Tab.0.right" timestamp="1652678322404">
+    <state width="1877" height="116" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1652679333014" />
+    <state width="1877" height="116" key="GridCell.Tab.0.right" timestamp="1652679333014">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="408" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1652678322404" />
+    <state width="1877" height="116" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1652679333014" />
     <state x="880" y="163" key="SettingsEditor" timestamp="1652646301624">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
