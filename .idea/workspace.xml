@@ -2,14 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e803489-35aa-426d-9546-77a27076829b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/org_junit_jupiter_junit_jupiter_5_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CircleTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EllipseTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LineTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PointTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RectangleTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ShapeTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SquareTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TriangleTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5700-Assn1-ShapesLibrary.iml" beforeDir="false" afterPath="$PROJECT_DIR$/5700-Assn1-ShapesLibrary.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Circle.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Circle.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ellipse.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ellipse.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Line.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Line.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Rectangle.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Rectangle.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Shape.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Shape.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Square.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Square.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Triangle.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Triangle.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +24,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin File" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -33,8 +38,26 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -60,5 +83,27 @@
       <updated>1652322502245</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1180" y="343" key="FileChooserDialogImpl" timestamp="1652644003569">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1180" y="343" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1652644003569" />
+    <state x="880" y="163" key="SettingsEditor" timestamp="1652646301624">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="880" y="163" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1652646301624" />
+    <state x="1145" y="417" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1652646270583">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1145" y="417" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1040@0.0.1920.1040" timestamp="1652646270583" />
+    <state x="685" y="141" key="new project wizard" timestamp="1652642505651">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="685" y="141" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1652642505651" />
+    <state x="1211" y="227" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog" timestamp="1652659490879">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1211" y="227" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1652659490879" />
   </component>
 </project>

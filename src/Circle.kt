@@ -6,7 +6,7 @@ class Circle(_points: MutableList<Point>, _radii: MutableList<Double>): Ellipse(
         }
     }
 
-    fun checkRadiiEquality(): Boolean {
+    private fun checkRadiiEquality(): Boolean {
         if (area == 0.toDouble()){
             return false
         }
